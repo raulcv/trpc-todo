@@ -23,10 +23,22 @@ It's fully functional persisting data in mongodb database
 ```bash
 git glone https://github.com/raulcv/trpc-todo.git
 ```
+
 >> Enter to your  local repository created with git clone
 ```bash
-cd trpc-clone 
+cd trpc-todo 
 ```
+
+> Install NPM Dependencies
+```bash
+npm install
+```
+
+>> Enter to your  local repository created with git clone
+```bash
+cd trpc-todo 
+```
+
 >> create a .env or you can created it manually into your project folder
 ```bash
 touch .env
@@ -38,6 +50,7 @@ Finally run the tRPC API on dev mode 🤪
 npm run dev
 ```
 Open your browser and type localhost:3000/
+
 #
 <p align="center">
 	With :heart: by <a href="https://www.raulcv.com" target="_blank">raulcv</a>
