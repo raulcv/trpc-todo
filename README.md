@@ -24,7 +24,8 @@ It's fully functional persisting data in mongodb database
 git glone https://github.com/raulcv/trpc-todo.git
 ```
 
->> Enter to your  local repository created with git clone
+### For backend API 
+> Enter to your  local repository created with git clone
 ```bash
 cd trpc-todo 
 ```
@@ -34,22 +35,36 @@ cd trpc-todo
 npm install
 ```
 
->> Enter to your  local repository created with git clone
-```bash
-cd trpc-todo 
-```
-
->> create a .env or you can created it manually into your project folder
+> create a .env or you can created it manually into your project folder
 ```bash
 touch .env
 ```
-Into .env file copy from envtext.txt file included, and change with your credentials
 
-Finally run the tRPC API on dev mode 🤪
+Into .env file copy from envtext.txt file included, and change with your own credentials
+
+Run the tRPC API on dev mode
 ```bash
 npm run dev
 ```
 Open your browser and type localhost:3000/
+
+### For react frontend APP 
+> Go to trpc-client
+```bash
+cd trpc-client
+```
+
+> Install NPM Dependencies for client app
+```bash
+npm install
+```
+
+Finally run the React APP on dev mode 🤪
+```bash
+npm run dev
+```
+
+Open your browser and type localhost:3007/
 
 #
 <p align="center">
