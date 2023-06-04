@@ -21,7 +21,7 @@ It's fully functional persisting data in mongodb database
 > clone this repository, you need git installed in your machine ¡ how to install link [![GIT](https://img.shields.io/badge/Git-0077B5?style=for-the-badge&logo=git&logoColor=red)](https://github.com/git-guides/install-git)
 >> In your local machine open some cmd, bash etc command line tool. Located where you will have your local repository. You can navigate with cd somepath/mydirectory etc.
 ```bash
-git glone https://github.com/raulcv/trpc-todo.git
+git clone https://github.com/raulcv/trpc-todo.git
 ```
 
 ### For backend API 
